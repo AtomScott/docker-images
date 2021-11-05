@@ -1,1 +1,2 @@
 motmetrics
+git+git://github.com/AtomScott/Python-Object-Detection-Metrics@master
