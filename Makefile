@@ -1,7 +1,7 @@
 .PHONY: all-in-one
 all-in-one:
 	echo "all-in-one"
-	docker build -t atomscott/all-in-one:latest .
+	docker build -t atomscott/all-in-one:latest . --no-cache
 	docker run -t atomscott/all-in-one:latest echo "atomscott/all-in-one done"
 
 .PHONY: push
